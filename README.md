@@ -1,0 +1,1 @@
+Coleção de estudos em Python, incluindo conceitos fundamentais, testes de código e exploração de bibliotecas.
