@@ -1,6 +1,4 @@
-# AULA 1 - FUNDAMENTOS
-
-# saída de dados---------------------------------------------------------------------------------
+# SAÍDA DE DADOS---------------------------------------------------------------------------------
 
 num2 = float(25.12345)
 num = int(100)
@@ -18,9 +16,9 @@ print(f"\nvalor em binario: {num: b}", end='') #formata num para binário
 
 print("\n-------------------------------------")
 
-# entrada de dados--------------------------------------------------------------------------------
+# ENTRADA DE DADOS--------------------------------------------------------------------------------
 
-print("DADOS PESSOAIS")
+print("\nDADOS PESSOAIS")
 
 nome = input("\nDigite seu nome: ") #input é usado para receber dados do usuário
 idade = int(input("Informe sua idade: "))
@@ -32,5 +30,23 @@ print(f"\nSeu nome é {nome},", f"voce tem {idade} anos,", f"e seu telefone é {
 
 print("\n-------------------------------------\n")
 
-#variáveis e tipos de dados-----------------------------------------------------------------------
+#VARIÁVEIS E TIPOS DE DADOS-----------------------------------------------------------------------
 
+print("INFORME OUTROS DADOS\n")
+
+num3 = int(input("Quantos anos de experiência você tem? ")) #variável do tipo inteiro
+pet = str(input("Qual o nome do seu pet? ")) #variável do tipo string, texto
+dinheiro = float(input("Quanto tem em dinheiro? ")) #número com casas decimais
+solteiro = True #tipo booleano, pode ser True ou Falso
+
+print("\n-------------------------------------")
+
+print(f"\nSEUS DADOS SÃO:\n\n"
+      f"NOME: {nome}\n"
+      f"IDADE: {idade}\n"
+      f"TELEFONE: {tel}"
+      f"ANOS DE EXPERIENCIA: {num3}\n"
+      f"NOME DO PET: {pet}\n"
+      f"SOLDO EM CONTA: {dinheiro}")
+
+print("-------------------------------------\n")
